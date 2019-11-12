@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd8dddb0.chunk.css",
+    "main.js": "/static/js/main.8722a32e.chunk.js",
+    "main.js.map": "/static/js/main.8722a32e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.baeb1881.js",
+    "runtime-main.js.map": "/static/js/runtime-main.baeb1881.js.map",
+    "static/css/2.6af22866.chunk.css": "/static/css/2.6af22866.chunk.css",
+    "static/js/2.8889f2b4.chunk.js": "/static/js/2.8889f2b4.chunk.js",
+    "static/js/2.8889f2b4.chunk.js.map": "/static/js/2.8889f2b4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.37e2938fd965b1b80272c67db6518f15.js": "/precache-manifest.37e2938fd965b1b80272c67db6518f15.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.6af22866.chunk.css.map": "/static/css/2.6af22866.chunk.css.map",
+    "static/css/main.fd8dddb0.chunk.css.map": "/static/css/main.fd8dddb0.chunk.css.map",
+    "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
+    "static/media/mainHero.svg": "/static/media/mainHero.6a107bd3.svg",
+    "static/media/trend.svg": "/static/media/trend.4bb94d00.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.baeb1881.js",
+    "static/css/2.6af22866.chunk.css",
+    "static/js/2.8889f2b4.chunk.js",
+    "static/css/main.fd8dddb0.chunk.css",
+    "static/js/main.8722a32e.chunk.js"
+  ]
+}
