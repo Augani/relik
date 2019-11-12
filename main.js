@@ -5,7 +5,7 @@ const Path = require('path');
 const Inert = require('inert');
 const dotenv = require('dotenv');
 dotenv.config();
-var port = process.env.PORT || 8080;
+var port = parseInt(process.env.PORT) || 8080;
 const init = async () => {
 
     const server = Hapi.server({
