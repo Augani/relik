@@ -1,11 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kanit:200|Montserrat|Roboto:100&display=swap');
 body {
   margin: 0;
-  font-family: "Titillium";
+  font-family: 'Kanit', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  /* font-family: source-code-pro, Menlo, Monaco, Consolas, "Titillium",
-    monospace; */
+.menuButtons:hover{
+  background-color: #25004f;
+  color: white;
+
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #25004f; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
 }
