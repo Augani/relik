@@ -1,0 +1,22 @@
+{
+  "name": "plank",
+  "version": "1.0.0",
+  "description": "An Api for web project",
+  "main": "app.js",
+  "scripts": {
+    "client": "npm run start --prefix client",
+    "server": "nodemon main.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "start": "node main.js"
+  },
+  "author": "Augustus Otu",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "concurrently": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "inert": "^5.1.3",
+    "neo4j-driver": "^1.7.6",
+    "nodemon": "^1.19.4"
+  }
+}
