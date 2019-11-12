@@ -3,11 +3,13 @@ const routes = require('./routes');
 const config = require('./config');
 const Path = require('path');
 const Inert = require('inert');
-
+const dotenv = require('dotenv');
+dotenv.config();
+var port = process.env.PORT || 8080;
 const init = async () => {
 
     const server = Hapi.server({
-        port: process.env.PORT,
+        port: port,
         host: 'localhost',
         routes: {
             files: {
